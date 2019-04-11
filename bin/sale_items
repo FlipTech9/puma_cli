@@ -1,6 +1,10 @@
 #!/usr/bin/env ruby
 require_relative '../lib/puma_cli'
 
-PumaCli::CLI.new.call 
+
+PumaCli::CLI.new.start
+#CLI.new.start 
+
+#PumaCli::Scraper.scrape_page
 
  

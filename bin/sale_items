@@ -3,8 +3,6 @@ require_relative '../lib/puma_cli'
 
 
 PumaCli::CLI.new.start
-#CLI.new.start 
 
-#PumaCli::Scraper.scrape_page
 
  

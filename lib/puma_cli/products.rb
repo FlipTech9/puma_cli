@@ -1,4 +1,3 @@
-#class Products
 class PumaCli::Products
 
     attr_accessor :name, :url, :sale_price, :orig_price, :product_name  
@@ -7,8 +6,7 @@ class PumaCli::Products
     def initialize(name, url)
         @name = name
         @url = url 
-        #@@all << self
-
+        
     end 
 
     def save

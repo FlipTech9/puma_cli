@@ -1,5 +1,4 @@
 require_relative "./puma_cli/version"
-require_relative './puma_cli/sale'
 require_relative './puma_cli/cli'
 require_relative './puma_cli/scraper'
 require_relative './puma_cli/products'
